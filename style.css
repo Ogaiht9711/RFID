@@ -1,0 +1,148 @@
+@font-face {
+   font-family: 'Poppins';
+   src: url(Poppins.ttf);
+}
+@font-face {
+   font-family: 'Museo Sans';
+   src: url(Museo_Sans_Cyrl_900.ttf);
+}
+
+@font-face {
+   font-family: 'Simplifica';
+   src: url(simplifica.ttf);
+}
+
+@font-face {
+   font-family: 'Roboto';
+   src: url(Roboto-Regular.ttf);
+}
+
+html {
+   height: 100%;
+   width: 100%;
+}
+
+body {
+   background-color: #004070;
+   background-size: cover;
+}
+
+#marca {
+   position: fixed;
+   bottom: -10rem;
+   left: -10rem;
+   max-width: 42%;
+}
+#marca2{
+   position: fixed;
+   bottom: -9rem;
+   left: -9rem;
+   max-width: 42%;
+   opacity: 50%;
+   filter: blur(2 px);
+}
+.header {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.title {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-family: 'Museo Sans', sans-serif;
+   text-transform: uppercase;
+   font-size: 2.5rem;
+   color: white;
+   text-shadow: 0.2rem 0.2rem rgb(182, 192, 198);
+}
+
+.main {
+   margin-left: 55%;
+   margin-top: 5%;
+   height: 100%;
+   font-family: 'Simplifica', sans-serif;
+   font-size: 2.5rem;
+   color: white;
+   border: 0.3rem solid white;
+   border-radius: 0.5rem;
+   box-shadow: -0.8rem 0.8rem rgb(182, 192, 198);
+   text-transform: uppercase;
+}
+
+.content {
+   padding: 3rem;
+}
+
+.content span {
+   width: 100%;
+   text-shadow: 1px 1px rgb(182, 192, 198);
+   margin-top: 1rem;
+}
+
+.content input {
+   margin-bottom: 1rem;
+   margin-top: -5px;
+   width: 100%;
+   height: 2rem;
+   border: none;
+   border-radius: 0.2rem;
+   font-family: Helvetica, Arial, sans-serif;
+   font-size: 1.2rem;
+   font-weight: 700;
+   color: #004070;
+}
+
+.sql {
+   max-width: 11rem;
+   position: fixed;
+   justify-items: center;
+   justify-content: center;
+   top: 0;
+   right: 0;
+   background-color: white;
+   border-radius: 0.5rem;
+   font-family: 'Simplifica', sans-serif;
+   font-size: 2rem;
+   color: #004070;
+   text-transform: uppercase;
+   width: 15rem;
+   text-align: center;
+   box-shadow: -0.3rem 0.3rem rgb(182, 192, 198);
+   font-weight: bolder;
+}
+
+.sql:hover {
+   box-shadow: -0.6rem 0.6rem rgb(182, 192, 198);
+   font-style: italic;
+
+}
+
+.sql p {
+   margin-top: 0;
+}
+
+#database {
+   max-width: 6rem;
+   padding-top: 1rem;
+}
+
+.content input{
+   font-family: 'Poppins', sans-serif;
+   text-transform: uppercase;
+   font-size: 1.2rem;
+   padding-left: 1rem;
+}
+
+#cadastrar{
+   margin-top: 1rem;
+   height: 4rem;
+   cursor: pointer;
+}
+
+#cadastrar:hover{
+   font-size: 1.3rem;
+   text-shadow: 0.1rem 0.1rem rgb(182, 192, 198);
+   box-shadow: -0.3rem 0.3rem rgb(182, 192, 198);
+}
